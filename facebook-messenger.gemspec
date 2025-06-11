@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'facebook/messenger/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'facebook-messenger'
+  spec.name          = 'meta-messenger'
   spec.version       = Facebook::Messenger::VERSION
   spec.authors       = ['Johannes Gorset']
   spec.email         = ['jgorset@gmail.com']
